@@ -1,1 +1,0 @@
-const Portfolio = require("../models/portfolios.model");

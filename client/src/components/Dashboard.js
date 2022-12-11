@@ -1,36 +1,36 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "../App.css";
+import "../stylesheets/App.css";
 import { Link } from "react-router-dom";
 
 const DisplayAll = () => {
-    const meats=["Chicken", "Pork", "Beef"];
-    const [allMeats, setAllMeats] = useState([]);
+    const tasks=["High", "Medium", "Low"];
+    const [allTasks, setAllTasks] = useState([]);
     useEffect(() => {
         axios
-        .get("http://localhost:8000/api/meat")
+        .get("http://localhost:8000/api/task")
         .then((response) => {
             console.log(response.data);
-            setAllMeats(response.data);
+            setAllTasks(response.data);
         })
         .catch((err) => {
             console.log(err.response);
         });
     }, []);
 
-    const handleDeleteMeat = (idFromBelow) => {
+    const handleDeleteTask = (idFromBelow) => {
         axios
-        .delete(`http://localhost:8000/api/meat/${idFromBelow}`)
+        .delete(`http://localhost:8000/api/task/${idFromBelow}`)
         .then((response) => {
-            console.log("success deleting meat");
+            console.log("successfully removed task");
             console.log(response);
-            const filteredMeats = allMeats.filter((meat) => {
-            return meat._id !== idFromBelow;
+            const filteredTasks = allTasks.filter((task) => {
+            return task._id !== idFromBelow;
             });
-            setAllMeats(filteredMeats);
+            setAllTasks(filteredTasks);
         })
         .catch((err) => {
-            console.log("error deleting meat", err.response);
+            console.log("error deleting task", err.response);
         });
     };
 
@@ -53,8 +53,7 @@ const DisplayAll = () => {
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th>Tray</th>
-                                            <th>Product</th>
+                                            <th>Task</th>
                                             <th>Description</th>
                                             <th>Type</th>
                                             <th>Actions</th>
@@ -65,23 +64,22 @@ const DisplayAll = () => {
                             <div class="table-content">
                                 <table>
                                     <tbody>
-                                        {allMeats.map((meat, index) => {
+                                        {allTasks.map((task, index) => {
                                             return (
-                                            <tr key={meat._id}>
-                                                <td>{meat.tray_size}</td>
-                                                <td>{meat.name}</td>
-                                                <td>{meat.description}</td>
-                                                <td>{meat.type}</td>
+                                            <tr key={task._id}>
+                                                <td>{task.name}</td>
+                                                <td>{task.description}</td>
+                                                <td>{task.type}</td>
                                                 <td>
-                                                    <Link to={`/meat/${meat._id}`}>
+                                                    <Link to={`/task/${task._id}`}>
                                                         <button className="table-button">Details</button>
                                                     </Link>
 
-                                                    <Link to={`/edit/${meat._id}`}>
+                                                    <Link to={`/edit/${task._id}`}>
                                                         <button className="table-button">Edit</button>
                                                     </Link>
 
-                                                    <button onClick={() => handleDeleteMeat(meat._id)}className="danger-button">
+                                                    <button onClick={() => handleDeleteTask(task._id)}className="danger-button">
                                                         Delete
                                                     </button>
                                                 </td>
@@ -95,10 +93,10 @@ const DisplayAll = () => {
                     <div class="table-ender">
                         <Link to="/new"><button class="add-product-button"><strong>Add Product</strong></button></Link>
                     </div>
-                    <div class="meat-types">
-                        <Link to={`/meatType/Chicken`}><button class="meat-type-button"><strong>Chicken</strong></button></Link>
-                        <Link to={`/meatType/Pork`}><button class="meat-type-button"><strong>Pork</strong></button></Link>
-                        <Link to={`/meatType/Beef`}><button class="meat-type-button"><strong>Beef</strong></button></Link>
+                    <div class="task-types">
+                        <Link to={`/taskType/High`}><button class="task-type-button"><strong>High</strong></button></Link>
+                        <Link to={`/taskType/Medium`}><button class="task-type-button"><strong>Medium</strong></button></Link>
+                        <Link to={`/taskType/Low`}><button class="task-type-button"><strong>Low</strong></button></Link>
                     </div>
                 </section>
             </body>
