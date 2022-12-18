@@ -36,7 +36,7 @@ const DisplayAll = () => {
 
     return (
         <>
-            <body>
+            <body class="socials">
               
             </body>
         </>
