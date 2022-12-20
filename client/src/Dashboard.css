@@ -8,28 +8,27 @@
 
 body {
   background:aquamarine;
-
+  margin: auto;
 }
-
-.container {}
 
 .col-container {
   display:flex;
   width: 1400px;
   margin: auto;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .col-1 {
   background: black;
-  width: 270px;
-  height:500px;
-  display: flex;
+  width: 500px;
+  height:550px;
+  justify-content: center;
 }
 
 .col-2 {
   background: black;
-  width: 180px;
-  height:500px;
+  width: 300px;
+  height:550px;
   margin-left: 10px;
-  display: flex;
 }
