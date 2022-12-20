@@ -6,8 +6,30 @@
 
 /* -----------------------------------------------------------------------------> */
 
-.socials {
+body {
   background:aquamarine;
-  width: 20px;
-  height: 20px;
+
+}
+
+.container {}
+
+.col-container {
+  display:flex;
+  width: 1400px;
+  margin: auto;
+}
+
+.col-1 {
+  background: black;
+  width: 270px;
+  height:500px;
+  display: flex;
+}
+
+.col-2 {
+  background: black;
+  width: 180px;
+  height:500px;
+  margin-left: 10px;
+  display: flex;
 }
