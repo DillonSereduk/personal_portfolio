@@ -36,7 +36,8 @@ const DisplayAll = () => {
 
     return (
       <>
-        <body>
+        <body class = "background">
+          <section class = "container">
             <div class = "col-container">
               <div class = "col-1">
 
@@ -45,6 +46,7 @@ const DisplayAll = () => {
 
               </div>
             </div>
+          </section>
         </body>
       </>
     );

@@ -7,27 +7,30 @@
 /* -----------------------------------------------------------------------------> */
 
 body {
-  background:aquamarine;
-  margin: auto;
+  background: tan;
+}
+
+.container {
+  
 }
 
 .col-container {
   display:flex;
   width: 1400px;
+  height: 1400px;
   margin: auto;
-  justify-content: center;
   margin-top: 100px;
 }
 
 .col-1 {
-  background: black;
+  background: grey;
   width: 500px;
   height:550px;
   justify-content: center;
 }
 
 .col-2 {
-  background: black;
+  background: grey;
   width: 300px;
   height:550px;
   margin-left: 10px;
