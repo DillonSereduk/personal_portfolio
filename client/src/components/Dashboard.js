@@ -37,15 +37,10 @@ const DisplayAll = () => {
     return (
       <>
         <body class = "background">
-          <div class="diamond">
-            <div class="circle pastel-1"></div>
-            <div class="circle pastel-2"></div>
-            <div class="circle pastel-3"></div>
-            <div class="circle pastel-4"></div>
-            <div class="circle pastel-5"></div>
-            <div class="circle pastel-6"></div>
-            <div class="circle pastel-7"></div>
-            <div class="circle pastel-8"></div>
+          <div class="container">
+            <div class="welcome-circle">
+              <h1>Hello</h1>
+            </div>
           </div>
         </body>
       </>
