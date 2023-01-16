@@ -38,6 +38,9 @@ const DisplayAll = () => {
       <>
         <body class = "background">
           <div class="container">
+            <div class="nav-bar">
+              
+            </div>
             <div class="welcome-circle">
               <h1>Hello</h1>
             </div>
