@@ -18,6 +18,10 @@ body {
   margin-top: 200px;
 }
 
+/* NAVBAR---------------------------------------------------------------------------------------> */
+
+
+
 .welcome-circle {
   background-color: black;
   width: 200px;
@@ -55,13 +59,11 @@ body {
   text-align: center;
   padding-top: 80px;
   opacity: 1;
-  transition: opacity 0.5s ease-in;
 }
 
-.welcome-circle:hover h1{
+.welcome-circle:hover h1 {
   color: black;
-  opacity: 0;
-  
+  content: "continue?";
 }
 
 
