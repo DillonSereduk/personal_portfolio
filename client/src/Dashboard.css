@@ -38,7 +38,7 @@ body {
 
 .welcome-circle:hover {
   animation: breathe 2s ease-in-out infinite;
-  background-color: rgb(165, 90, 165);
+  background-color: white;
   border-style: solid;
   border-color: black;
   border-width: 2px;
