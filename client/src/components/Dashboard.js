@@ -37,14 +37,16 @@ const DisplayAll = () => {
     return (
       <>
         <body class = "background">
-          <div class="container">
+          <section class="header">
             <div class="nav-bar">
               
             </div>
+          </section>
+          <section class="main">
             <div class="welcome-circle">
               <h1>Hello</h1>
             </div>
-          </div>
+          </section>
         </body>
       </>
     );
