@@ -7,12 +7,16 @@
 /* -----------------------------------------------------------------------------> */
 
 body {
-  background: black;
+  background: rgb(11, 11, 11);
   font-family: Andale Mono, monospace;
 }
 
 .header {
-
+  background:black;
+  height: 50px;
+  width:600px;
+  display: flex;
+  margin: auto;
 }
 
 .main {
