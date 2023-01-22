@@ -38,12 +38,13 @@ const DisplayAll = () => {
       <>
         <body class = "background">
           <section class="nav-bar">
-              
+            <div class="hamburger">
+            </div>
+            <div class="about">
+            </div>
           </section>
           <section class="main">
-            <div class="welcome-circle">
-              <h1>Hello</h1>
-            </div>
+
           </section>
         </body>
       </>
