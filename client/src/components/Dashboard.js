@@ -40,14 +40,13 @@ const DisplayAll = () => {
         <body class = "background">
           <section class="nav-bar">
             <div class="hamburger">
-              <i class="fas fa-bars"></i>
+              <i class="fa-solid fa-bolt" color="white" font-size="35px"></i>
+              
             </div>
             <div class="about">
             </div>
           </section>
-          <section class="main">
-
-          </section>
+          
         </body>
       </>
     );
