@@ -3,6 +3,7 @@ import axios from "axios";
 import "../Dashboard.css";
 import { Link } from "react-router-dom";
 
+
 const DisplayAll = () => {
     const tasks=["High", "Medium", "Low"];
     const [allTasks, setAllTasks] = useState([]);
@@ -39,6 +40,7 @@ const DisplayAll = () => {
         <body class = "background">
           <section class="nav-bar">
             <div class="hamburger">
+              <i class="fas fa-bars"></i>
             </div>
             <div class="about">
             </div>
