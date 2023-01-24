@@ -38,26 +38,42 @@ const DisplayAll = () => {
     return (
       <>
         <body>
-          <section class="nav-bar">
-            <div class="hamburger-icon">
-              <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="github-icon">
-              <i class="fa-brands fa-github"></i>
-            </div>
-            <div class="linkedin-icon">
-              <i class="fa-brands fa-linkedin"></i>
-            </div>
-            <div class="twitter-icon">
-              <i class="fa-brands fa-twitter"></i>
-            </div>
-            <div class="about">
-            </div>
-          </section>
-          
+          <div className="header">
+            <nav className="navigation-bar-left">
+              {/* <button class="hamburger-button">
+                <i class="fa-solid fa-bars"></i>
+              </button> */}
+            </nav>
+            <nav className="navigation-bar-middle">
+              <ul>
+                <li>
+                  <a href="https://github.com/DillonSereduk" className="github-button">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav className="navigation-bar-right"></nav>
+          </div>
         </body>
       </>
     );
     };
 
 export default DisplayAll;
+          {/* <section class="nav-bar-main">
+            <section class="nav-bar-left">
+              
+            </section>
+            <section class="nav-bar-middle">
+              <button class="github-icon">
+                <i class="fa-brands fa-github"></i>
+              </button>
+              <button class="linkedin-icon">
+                <i class="fa-brands fa-linkedin"></i>
+              </button>
+              <button class="twitter-icon">
+                <i class="fa-brands fa-twitter"></i>
+              </button>
+            </section>
+          </section> */}

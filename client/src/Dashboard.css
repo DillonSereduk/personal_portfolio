@@ -11,44 +11,78 @@ body {
   font-family: Andale Mono, monospace;
 }
 
-/* NAVBAR---------------------------------------------------------------------------------------> */
-
-.nav-bar {
-  border-color: white; border-style:solid; border-width: 3px; border-radius: 50px;
-  background:black;
-  height:55px; width:50%;
-  margin-top: 200px;
-  margin-left: 25%;
+.header {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-/* NAVBAR-ICONS -----------------------------------------------------------------------> */
+/* NAVBAR MAIN---------------------------------------------------------------------------------------> */
 
-.hamburger-icon {
-  color: white;
+.navigation-bar-left {
+  border-color: white; border-style:solid; border-width: 3px; border-radius: 25px 0px 0px 25px ;
+  background:black;
+  height: 40px; width:5%;
+  margin-top: 25%; margin-left: 25%;margin-right: .5%;
+}
+
+.navigation-bar-middle {
+  border-color: white; border-style:solid; border-width: 3px; border-radius: 0px ;
+  background:black;
+  height:40px; width:30%;
+  margin-top: 25%; 
+  text-align: center
+}
+
+.navigation-bar-middle:hover {
+  
+}
+
+.navigation-bar-right {
+  border-color: white; border-style:solid; border-width: 3px; border-radius: 0px 25px 25px 0px;
+  background:black;
+  height:40px; width:5%;
+  margin-top: 25%; margin-left: .5%;
+}
+
+/* NAVBAR LEFT -----------------------------------------------------------------------------> */
+
+.hamburger-button {
+  color: white; background-color: transparent;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+/* NAVBAR-MIDDLE -----------------------------------------------------------------------> */
+
+.navigation-bar-middle ul li {
+  list-style: none;
+}
+
+.navigation-bar-middle ul li a {
   font-size: 35px;
 }
 
-.github-icon {
-  color: white;
-  font-size: 35px;
+.github-button {
+  color: white; background-color: transparent; border-width: 0px;
+  cursor: pointer;
+  font-size: 40px;
 }
 
 .linkedin-icon {
-  color: white;
-  font-size: 35px;
+  color: white; background-color: transparent; border-width: 0px;
+  cursor: pointer;
+  font-size: 40px;
 }
 
 .twitter-icon {
-  color: white;
-  font-size: 35px;
+  color: white; background-color: transparent; border-width: 0px;
+  cursor: pointer;
+  font-size: 40px;
+  margin-right: 20px;
 }
 
 /* HOVER-ICON-FEATURES-----------------------------------------------------------------------------> */
 
-.github-icon:hover{
+.github-button:hover{
   color: rgb(96, 245, 131);
 }
 
