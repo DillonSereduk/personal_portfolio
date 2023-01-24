@@ -16,14 +16,48 @@ body {
 .nav-bar {
   border-color: white; border-style:solid; border-width: 3px; border-radius: 50px;
   background:black;
-  height:50px; width:300px;
+  height:55px; width:50%;
+  margin-top: 200px;
+  margin-left: 25%;
   display: flex;
-  margin: auto; margin-top: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
+/* NAVBAR-ICONS -----------------------------------------------------------------------> */
 
-/* -----------------------------------------------------------------------------> */
+.hamburger-icon {
+  color: white;
+  font-size: 35px;
+}
 
+.github-icon {
+  color: white;
+  font-size: 35px;
+}
 
+.linkedin-icon {
+  color: white;
+  font-size: 35px;
+}
+
+.twitter-icon {
+  color: white;
+  font-size: 35px;
+}
+
+/* HOVER-ICON-FEATURES-----------------------------------------------------------------------------> */
+
+.github-icon:hover{
+  color: rgb(96, 245, 131);
+}
+
+.linkedin-icon:hover {
+  color: rgb(6, 84, 163)
+}
+
+.twitter-icon:hover {
+  color: 	rgb(29, 155, 240);
+}
 
 

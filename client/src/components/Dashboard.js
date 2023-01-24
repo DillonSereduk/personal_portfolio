@@ -37,11 +37,19 @@ const DisplayAll = () => {
 
     return (
       <>
-        <body class = "background">
+        <body>
           <section class="nav-bar">
-            <div class="hamburger">
-              <i class="fa-solid fa-bolt" color="white" font-size="35px"></i>
-              
+            <div class="hamburger-icon">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="github-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="linkedin-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="twitter-icon">
+              <i class="fa-brands fa-twitter"></i>
             </div>
             <div class="about">
             </div>
