@@ -51,6 +51,11 @@ const DisplayAll = () => {
                     <i class="fa-brands fa-github"></i>
                   </a>
                 </li>
+                <li>
+                  <a href="https://github.com/DillonSereduk" className="github-button">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
               </ul>
             </nav>
             <nav className="navigation-bar-right"></nav>

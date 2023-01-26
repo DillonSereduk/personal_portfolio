@@ -55,6 +55,8 @@ body {
 
 .navigation-bar-middle ul li {
   list-style: none;
+  display: inline-block;
+  padding-left: 10px;
 }
 
 .navigation-bar-middle ul li a {
