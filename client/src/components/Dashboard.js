@@ -39,26 +39,7 @@ const DisplayAll = () => {
       <>
         <body>
           <div className="header">
-            <nav className="navigation-bar-left">
-              {/* <button class="hamburger-button">
-                <i class="fa-solid fa-bars"></i>
-              </button> */}
-            </nav>
-            <nav className="navigation-bar-middle">
-              <ul>
-                <li>
-                  <a href="https://github.com/DillonSereduk" className="github-button">
-                    <i class="fa-brands fa-github"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/DillonSereduk" className="github-button">
-                    <i class="fa-brands fa-github"></i>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-            <nav className="navigation-bar-right"></nav>
+            
           </div>
         </body>
       </>
@@ -66,6 +47,7 @@ const DisplayAll = () => {
     };
 
 export default DisplayAll;
+
           {/* <section class="nav-bar-main">
             <section class="nav-bar-left">
               
@@ -82,3 +64,24 @@ export default DisplayAll;
               </button>
             </section>
           </section> */}
+          
+          {/* <nav className="navigation-bar-left">
+              <button class="hamburger-button">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </nav>
+            <nav className="navigation-bar-middle">
+              <ul>
+                <li>
+                  <a href="https://github.com/DillonSereduk" className="github-button">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/DillonSereduk" className="github-button">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav className="navigation-bar-right"></nav> */}
