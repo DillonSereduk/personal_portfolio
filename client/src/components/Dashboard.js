@@ -38,85 +38,39 @@ const DisplayAll = () => {
     return (
       <>
         <body>
-          <section class="panel-1">
-            <h1>Nice Curves</h1>
-              <p>
-                In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                Laborum id minim fugiat id sint labore nulla nulla.
-              </p>
-          </section>
-          <section class="panel-2">
-            <h1>Nice Curves</h1>
-              <p>
-                In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                Laborum id minim fugiat id sint labore nulla nulla.
-              </p>
-          </section>
-          <section class="panel-3">
-            <h1>Nice Curves</h1>
-              <p>
-                In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                Laborum id minim fugiat id sint labore nulla nulla.
-              </p>
-          </section>
-          <section class="panel-4">
-            <h1>Nice Curves</h1>
-              <p>
-                In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                Laborum id minim fugiat id sint labore nulla nulla.
-              </p>
-          </section >
-          <section class="panel-5">
-            <h1>Nice Curves</h1>
-              <p>
-                In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                Laborum id minim fugiat id sint labore nulla nulla.
-              </p>
-          </section>
-          <section class="panel-6">
-            <h1>Nice Curves</h1>
-              <p>
-                In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                Laborum id minim fugiat id sint labore nulla nulla.
-              </p>
-          </section>
-          <section class="panel-7">
-            <h1>Nice Curves</h1>
-              <p>
-                In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                Laborum id minim fugiat id sint labore nulla nulla.
-              </p>
-          </section>
-          <section class="panel-8">
-            <h1>Nice Curves</h1>
-              <p>
-                In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                Laborum id minim fugiat id sint labore nulla nulla.
-              </p>
-          </section>
-          
-          
-          
-          
-          
-          
-          
+            <section class="panel-1">
+              <h1 class="fancy-font">DILLON SEREDUK</h1>
+                <p>
+                  In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
+                  Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
+                  Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
+                  Laborum id minim fugiat id sint labore nulla nulla.
+                </p>
+            </section>
+
+            <div class="spacer layer1"></div>
+
+            <section class="panel-2">
+              <h1>Nice Curves</h1>
+                <p>
+                  In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
+                  Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
+                  Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
+                  Laborum id minim fugiat id sint labore nulla nulla.
+                </p>
+            </section>
+
+            <div class="spacer layer2"></div>
+
+            <section class="panel-3">
+              <h1>Nice Curves</h1>
+                <p>
+                  In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
+                  Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
+                  Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
+                  Laborum id minim fugiat id sint labore nulla nulla.
+                </p>
+            </section>
         </body>
       </>
     );
