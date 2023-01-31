@@ -38,7 +38,7 @@ const DisplayAll = () => {
     return (
       <>
         <body>
-          <section class="black">
+          <section class="panel-1">
             <h1>Nice Curves</h1>
               <p>
                 In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
@@ -47,7 +47,7 @@ const DisplayAll = () => {
                 Laborum id minim fugiat id sint labore nulla nulla.
               </p>
           </section>
-          <section class="maroon">
+          <section class="panel-2">
             <h1>Nice Curves</h1>
               <p>
                 In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
@@ -56,7 +56,7 @@ const DisplayAll = () => {
                 Laborum id minim fugiat id sint labore nulla nulla.
               </p>
           </section>
-          <section class="rust">
+          <section class="panel-3">
             <h1>Nice Curves</h1>
               <p>
                 In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
@@ -65,7 +65,7 @@ const DisplayAll = () => {
                 Laborum id minim fugiat id sint labore nulla nulla.
               </p>
           </section>
-          <section class="tomato">
+          <section class="panel-4">
             <h1>Nice Curves</h1>
               <p>
                 In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
@@ -74,7 +74,7 @@ const DisplayAll = () => {
                 Laborum id minim fugiat id sint labore nulla nulla.
               </p>
           </section >
-          <section class="coral">
+          <section class="panel-5">
             <h1>Nice Curves</h1>
               <p>
                 In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
@@ -83,7 +83,7 @@ const DisplayAll = () => {
                 Laborum id minim fugiat id sint labore nulla nulla.
               </p>
           </section>
-          <section class="vermilion">
+          <section class="panel-6">
             <h1>Nice Curves</h1>
               <p>
                 In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
@@ -92,7 +92,7 @@ const DisplayAll = () => {
                 Laborum id minim fugiat id sint labore nulla nulla.
               </p>
           </section>
-          <section class="scarlet">
+          <section class="panel-7">
             <h1>Nice Curves</h1>
               <p>
                 In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
@@ -101,7 +101,7 @@ const DisplayAll = () => {
                 Laborum id minim fugiat id sint labore nulla nulla.
               </p>
           </section>
-          <section class="bright_red">
+          <section class="panel-8">
             <h1>Nice Curves</h1>
               <p>
                 In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 

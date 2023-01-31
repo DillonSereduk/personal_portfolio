@@ -22,30 +22,31 @@ section {
   padding: 100px 20vw;
 }
 
-.black {
+.panel-1 {
   background: black;
 }
-.maroon {
-  background: rgb(128, 0, 0);
+.panel-2 {
+  background: rgb(0, 255, 0);
 }
-.rust {
-  background: rgb(183, 65, 14);
+.panel-3 {
+  background: rgb(64, 224, 208);
 }
-.tomato {
-  background: rgb(255, 99, 71);
+.panel-4 {
+  background: rgb(0, 128, 128);
 }
-.coral {
-  background: rgb(255, 127, 80);
+.panel-5 {
+  background: rgb(135, 206, 235);
 }
-.vermilion {
-  background: rgb(227, 66, 52);
+.panel-6 {
+  background: rgb(15, 82, 186);
 }
-.scarlet {
-  background: rgb(255, 36, 0);
+.panel-7 {
+  background: rgb(0, 0, 128);
 }
-.bright_red {
-  background: rgb(196, 7, 7);
+.panel-8 {
+  background: rgb(75, 0, 130);
 }
+
 
 
 
