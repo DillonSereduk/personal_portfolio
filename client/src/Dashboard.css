@@ -21,20 +21,17 @@ body::-webkit-scrollbar-thumb {
   background: rgb(131, 130, 133);
 }
 
-.corner-pocket {
-  height: 5rem; width: 5rem;
-  border-bottom-right-radius: 50px;
-  background: rgb(255, 89, 0);
+.navbar {
+  height: 8vh; width: 4rem;
+  border-radius: 0px 0px 50px 50px;
+  margin-left: 1%;
+  background: rgb(48, 204, 54);
   position: fixed;
   z-index: 1;
+  transition: ease-in .1s;
 }
-
-.navbar {
-  /* height: 5rem; width: 5rem;
-  border-radius: 50px;
-  background: rgb(255,223,0);
-  position: fixed;
-  z-index: 1; */
+.navbar:hover {
+  height: 10vh;
 }
 
 section{
@@ -74,7 +71,6 @@ section{
 }
 .layer1 {
   background-image: url(./images/layer1.svg);
-  image-resolution: ;
 }
 .layer2 {
   background-image: url(./images/layer2.svg);
@@ -84,7 +80,7 @@ section{
   font-family: 'Cinzel Decorative', cursive;
   font-size: 3.5rem;
   letter-spacing: .3em; padding: 1rem 1rem;
-  background: linear-gradient(to right, rgb(230, 230, 7),orange);
+  background: linear-gradient(to right, rgb(55, 237, 61),green);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   pointer-events: none;
