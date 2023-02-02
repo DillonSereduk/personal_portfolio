@@ -38,14 +38,10 @@ const DisplayAll = () => {
     return (
       <>
         <body>
+            <div class="corner-pocket">
               <div class="navbar">
-                <div class="navbar-side">
-
-                </div>
-                <div class="navbar-top">
-
-                </div>
               </div>
+            </div>
             <section class="panel-1">
               
               <h1 class="fancy-font">DILLON SEREDUK.</h1>
