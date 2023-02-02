@@ -38,12 +38,10 @@ const DisplayAll = () => {
     return (
       <>
         <body>
-            <div class="corner-pocket">
-              <div class="navbar">
-              </div>
+            <div class="navbar">
+                <i class="fa-solid fa-bars"></i>
             </div>
             <section class="panel-1">
-              
               <h1 class="fancy-font">DILLON SEREDUK.</h1>
                 <p>
                   In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
