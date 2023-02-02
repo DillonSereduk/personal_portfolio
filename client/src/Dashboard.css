@@ -21,15 +21,7 @@ body::-webkit-scrollbar-thumb {
   background: rgb(131, 130, 133);
 }
 
-.navbar {
-  width: 5rem;
-  height: 100vh;
-  position:fixed;
-  background-color: rgb(27, 27, 27);
-  z-index: 1;
-}
-
-section {
+section{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -40,13 +32,19 @@ section {
 }
 
 .panel-1 {
-  background: black;
+  background: rgb(0, 0, 0);
+  align-items: center;
+  flex-direction: column;
 }
 .panel-2 {
   background: rgb(54, 188, 175);
+  align-items: center;
+  flex-direction: column;
 }
 .panel-3 {
   background: rgb(121, 70, 157);
+  align-items: center;
+  flex-direction: column;
 }
 
 .spacer {
@@ -85,7 +83,6 @@ section {
 
 .pillar {
   background-image: url(./images/ppperspective.svg);
-
 }
 
 
