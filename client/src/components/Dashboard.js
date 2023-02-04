@@ -38,9 +38,35 @@ const DisplayAll = () => {
     return (
       <>
         <body>
-            <div class="navbar">
+            <nav class="navbar">
                 <i class="fa-solid fa-bars"></i>
-            </div>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa-brands fa-github"></i>
+                      <span class="link-text">Github</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa-brands fa-linkedin"></i>
+                      <span class="link-text">LinkedIn</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa-solid fa-eye-slash"></i>
+                      <span class="link-text">reality</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa-regular fa-circle-xmark"></i>
+                      <span class="link-text"></span>
+                    </a>
+                  </li>
+                </ul>
+            </nav>
             <section class="panel-1">
               <h1 class="fancy-font">DILLON SEREDUK.</h1>
                 <p>

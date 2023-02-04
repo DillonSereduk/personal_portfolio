@@ -32,17 +32,54 @@ body::-webkit-scrollbar-thumb {
 }
 .navbar:hover {
   height: 10vh;
+  transition: ease-in .1s;
 }
 
-.navbar:hover .fa-bars{
-  transition: ease-in .1s;
-  font-size: 2.5rem;
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.nav-item {
+  width:100%
+}
+.nav-item:last-child {
+  
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 8vh;
+}
+.nav-link svg{
+  min-width: 2rem;
+  margin: auto;
+  font-size: 2rem;
+  color: white;
+}
+
+.link-text {
+  display: none;
+  margin-left: 1rem;
 }
 
 .fa-bars {
+  min-width: 2rem;
   font-size: 2rem;
   display: flex;
   margin:auto; margin-top: 1vh;
+  transition: ease-in .1s;
+}
+.navbar:hover .fa-bars{
+  transition: ease-in .1s;
+  font-size: 2.5rem;
 }
 
 section{
@@ -60,7 +97,6 @@ section{
   align-items: center;
   flex-direction: column;
 }
-
 .panel-2 {
   background: rgb(54, 188, 175);
   align-items: center;
