@@ -2,6 +2,11 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "../Dashboard.css";
 import { Link } from "react-router-dom";
+import { ReactComponent as BarsIcon} from './images/bars-solid.svg';
+import { ReactComponent as GitHubIcon} from './images/github.svg';
+import { ReactComponent as LinkedInIcon} from './images/linkedin.svg';
+import { ReactComponent as EyeSlashIcon} from './images/eye-slash-solid.svg';
+import { ReactComponent as ExitIcon} from './images/circle-x.svg';
 
 
 function App() {
