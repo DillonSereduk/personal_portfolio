@@ -45,20 +45,12 @@ body::-webkit-scrollbar-thumb {
   vertical-align: middle;
 }
 
-.nav-item {
-  width:100%
-}
-.nav-item:last-child {
-  
-}
 
-.nav-link {
+.icon {
   display: flex;
   align-items: center;
   text-decoration: none;
   margin-top: 8vh;
-}
-.nav-link svg{
   min-width: 2rem;
   margin: auto;
   font-size: 2rem;
