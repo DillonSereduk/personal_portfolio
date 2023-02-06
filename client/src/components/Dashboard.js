@@ -5,40 +5,64 @@ import { Link } from "react-router-dom";
 
 
 function App() {
+  return (
+    <Navbar></Navbar>
+  );
+}
+
+function Navbar(props) {
+  return (
+    <nav className="navbar">
+      <ul class="navbar-nav"> { props.children } </ul>
+    </nav>
+  );
+}
+
+function NavItem(props) {
+  return (
+      <li className="nav-item">
+        <a href="#" className="nav-link">
+          {props.icon}
+        </a>
+      </li>
+  );
+}
+
+function App() {
     return (
       <>
         <body>
-            <nav class="navbar">
-                <i class="fa-solid fa-bars"></i>
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="fa-brands fa-github"></i>
-                      <span class="link-text">Github</span>
+            <nav className="navbar">
+                <i className="fa-solid fa-bars"></i>
+                <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      <i className="fa-brands fa-github"></i>
+                      <span className="link-text">Github</span>
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="fa-brands fa-linkedin"></i>
-                      <span class="link-text">LinkedIn</span>
+                  <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      <i className="fa-brands fa-linkedin"></i>
+                      <span className="link-text">LinkedIn</span>
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="fa-solid fa-eye-slash"></i>
-                      <span class="link-text">reality</span>
+                  <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      <i className="fa-solid fa-eye-slash"></i>
+                      <span className="link-text">reality</span>
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="fa-regular fa-circle-xmark"></i>
-                      <span class="link-text"></span>
+                  <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      <i className="fa-regular fa-circle-xmark"></i>
+                      <span className="link-text"></span>
                     </a>
                   </li>
                 </ul>
             </nav>
-            <section class="panel-1">
-              <h1 class="fancy-font">DILLON SEREDUK.</h1>
+            <section className="panel-1">
+              <h1 className="fancy-font">DILLON SEREDUK.</h1>
                 <p>
                   In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
                   Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
@@ -47,9 +71,9 @@ function App() {
                 </p>
             </section>
 
-            <div class="spacer layer1"></div>
+            <div className="spacer layer1"></div>
 
-            <section class="panel-2">
+            <section className="panel-2">
               <h1>Nice Curves</h1>
                 <p>
                   In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
@@ -59,9 +83,9 @@ function App() {
                 </p>
             </section>
 
-            <div class="spacer layer2"></div>
+            <div className="spacer layer2"></div>
 
-            <section class="panel-3">
+            <section className="panel-3">
               <h1>Nice Curves</h1>
                 <p>
                   In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
