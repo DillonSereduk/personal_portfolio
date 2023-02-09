@@ -2,140 +2,78 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "../Dashboard.css";
 import { Link } from "react-router-dom";
-import { ReactComponent as BarsIcon} from '../images/bars-solid.svg';
-import { ReactComponent as GitHubIcon} from '../images/github.svg';
-import { ReactComponent as LinkedInIcon} from '../images/linkedin.svg';
-import { ReactComponent as EyeSlashIcon} from '../images/eye-slash-solid.svg';
-import { ReactComponent as ExitIcon} from '../images/circle-x.svg';
-
 
 
 function App() {
-  return (
-    <Navbar>
-      <NavItem icon={<BarsIcon />}>
-        <navbar-nav>
-            <NavItem></NavItem>
-          <NavItem icon={<GitHubIcon />} />
-          <NavItem icon={<LinkedInIcon />} />
-          <NavItem icon={<EyeSlashIcon />} />
-          <NavItem icon={<ExitIcon />} />
-        </navbar-nav>
-      </NavItem>
-    </Navbar>
-  );
-}
-
-function DropdownMenu() {
-
-  function DropdownItem(props) {
     return (
-      <a href="#" className="icon">
-        {props.children}
-      </a>
-    )
-  }
+      <>
+        <body>
+            <nav className="navbar">
+                <i className="fa-solid fa-bars"></i>
+                <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      <i className="fa-brands fa-github"></i>
+                      <span className="link-text">Github</span>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      <i className="fa-brands fa-linkedin"></i>
+                      <span className="link-text">LinkedIn</span>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      <i className="fa-solid fa-eye-slash"></i>
+                      <span className="link-text">reality</span>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      <i className="fa-regular fa-circle-xmark"></i>
+                      <span className="link-text"></span>
+                    </a>
+                  </li>
+                </ul>
+            </nav>
+            <section className="panel-1">
+              <h1 className="fancy-font">DILLON SEREDUK.</h1>
+                <p>
+                  In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
+                  Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
+                  Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
+                  Laborum id minim fugiat id sint labore nulla nulla.
+                </p>
+            </section>
 
-  return (
-    <div className="dropdown">
+            <div className="spacer layer1"></div>
 
-    </div>
-  );
-}
+            <section className="panel-2">
+              <h1>Nice Curves</h1>
+                <p>
+                  In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
+                  Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
+                  Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
+                  Laborum id minim fugiat id sint labore nulla nulla.
+                </p>
+            </section>
 
-function Navbar(props) {
-  return (
-    <nav className="navbar">
-      <ul class="navbar-item"> { props.children } </ul>
-    </nav>
-  );
-}
+            <div className="spacer layer2"></div>
 
-function NavItem(props) {
-
-  const [open, setOpen] = useState(false);
-
-  return (
-      <li className="nav-item">
-        <a href="#" className="nav-link" onClick={() => setOpen(!open)}>
-          {props.icon}
-        </a>
-
-        {open && props.children}
-      </li>
-  );
-}
-
-// function App() {
-//     return (
-//       <>
-//         <body>
-//             <nav className="navbar">
-//                 <i className="fa-solid fa-bars"></i>
-//                 <ul className="navbar-nav">
-//                   <li className="nav-item">
-//                     <a href="#" className="nav-link">
-//                       <i className="fa-brands fa-github"></i>
-//                       <span className="link-text">Github</span>
-//                     </a>
-//                   </li>
-//                   <li className="nav-item">
-//                     <a href="#" className="nav-link">
-//                       <i className="fa-brands fa-linkedin"></i>
-//                       <span className="link-text">LinkedIn</span>
-//                     </a>
-//                   </li>
-//                   <li className="nav-item">
-//                     <a href="#" className="nav-link">
-//                       <i className="fa-solid fa-eye-slash"></i>
-//                       <span className="link-text">reality</span>
-//                     </a>
-//                   </li>
-//                   <li className="nav-item">
-//                     <a href="#" className="nav-link">
-//                       <i className="fa-regular fa-circle-xmark"></i>
-//                       <span className="link-text"></span>
-//                     </a>
-//                   </li>
-//                 </ul>
-//             </nav>
-//             <section className="panel-1">
-//               <h1 className="fancy-font">DILLON SEREDUK.</h1>
-//                 <p>
-//                   In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-//                   Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-//                   Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-//                   Laborum id minim fugiat id sint labore nulla nulla.
-//                 </p>
-//             </section>
-
-//             <div className="spacer layer1"></div>
-
-//             <section className="panel-2">
-//               <h1>Nice Curves</h1>
-//                 <p>
-//                   In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-//                   Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-//                   Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-//                   Laborum id minim fugiat id sint labore nulla nulla.
-//                 </p>
-//             </section>
-
-//             <div className="spacer layer2"></div>
-
-//             <section className="panel-3">
-//               <h1>Nice Curves</h1>
-//                 <p>
-//                   In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-//                   Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-//                   Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-//                   Laborum id minim fugiat id sint labore nulla nulla.
-//                 </p>
-//             </section>
-//         </body>
-//       </>
-//     );
-//   };
+            <section className="panel-3">
+              <h1>Nice Curves</h1>
+                <p>
+                  In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
+                  Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
+                  Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
+                  Laborum id minim fugiat id sint labore nulla nulla.
+                </p>
+            </section>
+        </body>
+      </>
+    );
+  };
 
 export default App;
 
