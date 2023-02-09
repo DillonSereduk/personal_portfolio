@@ -1,4 +1,4 @@
-const Task = require("../models/tasks.model");
+const Task = require("../models/slime.model");
 
 const createNewTask = (req, res) => {
     Task.create(req.body)

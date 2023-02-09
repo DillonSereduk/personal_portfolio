@@ -8,68 +8,7 @@ function App() {
     return (
       <>
         <body>
-            <nav className="navbar">
-                <i className="fa-solid fa-bars"></i>
-                <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      <i className="fa-brands fa-github"></i>
-                      <span className="link-text">Github</span>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      <i className="fa-brands fa-linkedin"></i>
-                      <span className="link-text">LinkedIn</span>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      <i className="fa-solid fa-eye-slash"></i>
-                      <span className="link-text">reality</span>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      <i className="fa-regular fa-circle-xmark"></i>
-                      <span className="link-text"></span>
-                    </a>
-                  </li>
-                </ul>
-            </nav>
-            <section className="panel-1">
-              <h1 className="fancy-font">DILLON SEREDUK.</h1>
-                <p>
-                  In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                  Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                  Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                  Laborum id minim fugiat id sint labore nulla nulla.
-                </p>
-            </section>
-
-            <div className="spacer layer1"></div>
-
-            <section className="panel-2">
-              <h1>Nice Curves</h1>
-                <p>
-                  In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                  Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                  Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                  Laborum id minim fugiat id sint labore nulla nulla.
-                </p>
-            </section>
-
-            <div className="spacer layer2"></div>
-
-            <section className="panel-3">
-              <h1>Nice Curves</h1>
-                <p>
-                  In incididunt nisi nisi fugiat Lorem labore id laboris dolore sunt. 
-                  Magna irure cillum amet cupidatat eu do occaecat cupidatat mollit reprehenderit est fugiat. 
-                  Aliqua excepteur proident fugiat sunt do. Velit incididunt non in dolor enim et aliqua. 
-                  Laborum id minim fugiat id sint labore nulla nulla.
-                </p>
-            </section>
+          <p>hello</p>
         </body>
       </>
     );

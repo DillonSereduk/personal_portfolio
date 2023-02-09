@@ -2,7 +2,7 @@ import "./Dashboard.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <BrowserRouter>

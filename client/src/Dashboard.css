@@ -4,12 +4,9 @@
   padding: 0;
 }
 
-/* -----------------------------------------------------------------------------> */
-
 body {
   background: white;
   color: white;
-  background: rgb(6, 21, 24);
 }
 body::-webkit-scrollbar {
   width: 0.25rem;
@@ -20,6 +17,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: rgb(131, 130, 133);
 }
+/* -----------------------------------------------------------------------------> */
 
 .navbar {
   height: 8vh; width: 4rem;

@@ -1,4 +1,4 @@
-const taskController = require("../controllers/task.controller");
+const taskController = require("../controllers/slime.controller");
 
 module.exports = (app) => {
     app.post("/api/task", taskController.createNewTask);
