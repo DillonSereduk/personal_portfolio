@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-    .connect("mongodb://localhost/personal_portfolio", {
+    .connect("mongodb://localhost/SlimeS", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     })

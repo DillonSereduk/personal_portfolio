@@ -5,8 +5,7 @@
 }
 
 body {
-  background: white;
-  color: white;
+  background: black;
 }
 body::-webkit-scrollbar {
   width: 0.25rem;
@@ -19,122 +18,5 @@ body::-webkit-scrollbar-thumb {
 }
 /* -----------------------------------------------------------------------------> */
 
-.navbar {
-  height: 8vh; width: 4rem;
-  border-radius: 0px 0px 50px 50px;
-  margin-left: 1%;
-  background: rgb(27, 27, 27);
-  position: fixed;
-  z-index: 1;
-  transition: ease-in .1s;
-}
-.navbar:hover {
-  height: 10vh;
-  transition: ease-in .1s;
-}
-
-.navbar-nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  vertical-align: middle;
-}
-
-
-.nav-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  margin-top: 8vh;
-  min-width: 2rem;
-  margin: auto;
-  font-size: 2rem;
-  color: white;
-}
-
-.link-text {
-  display: none;
-  margin-left: 1rem;
-}
-
-.fa-bars {
-  min-width: 2rem;
-  font-size: 2rem;
-  display: flex;
-  margin:auto; margin-top: 1vh;
-  transition: ease-in .1s;
-}
-.navbar:hover .fa-bars{
-  transition: ease-in .1s;
-  font-size: 2.5rem;
-}
-
-section{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 40rem;
-  padding: 2rem 20vw;
-  font-family: 'Manrope', sans-serif;
-}
-
-.panel-1 {
-  background: rgb(0, 0, 0);
-  align-items: center;
-  flex-direction: column;
-}
-.panel-2 {
-  background: rgb(54, 188, 175);
-  align-items: center;
-  flex-direction: column;
-}
-.panel-3 {
-  background: rgb(121, 70, 157);
-  align-items: center;
-  flex-direction: column;
-}
-
-.spacer {
-  aspect-ratio: 960/350;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.layer1 {
-  background-image: url(./images/layer1.svg);
-}
-.layer2 {
-  background-image: url(./images/layer2.svg);
-}
-
-.fancy-font {
-  font-family: 'Cinzel Decorative', cursive;
-  font-size: 3.5rem;
-  letter-spacing: .3em; padding: 1rem 1rem;
-  background: linear-gradient(to right, rgb(55, 237, 61),green);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  pointer-events: none;
-  animation: fade 3s ease-in 1s;
-  align-items: center;
-  }
-
-  @keyframes fade {
-    0%{
-      opacity:0;
-    }
-    100%{
-      opacity:1;
-    }
-  }
-
-.pillar {
-  background-image: url(./images/ppperspective.svg);
-}
 
 
